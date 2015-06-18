@@ -7,7 +7,7 @@ from kivy.core.window import Window
 from random import randint
 
 class Fish(Image):
-    # velocity of the ball on x and y axis
+    # velocity on x and y axis
     velocity_x = 0
     velocity_y = 0
     angle = NumericProperty(0)
