@@ -1,0 +1,22 @@
+
+<Fish@Image>:
+    source: "images/fish.zip"
+    size_hint: None, None
+    size: 35, 35
+    pos: self.pos
+    #anim_delay: 0.25
+    canvas.before:
+        PushMatrix
+        Rotate:
+            axis: 0,0,1
+            angle: root.angle - 180
+            origin: self.center
+    canvas.after:
+        PopMatrix
+
+
+<FlockingDemo>:
+    canvas:
+        Rectangle:
+            source: "images/background.png"
+            size: self.size
