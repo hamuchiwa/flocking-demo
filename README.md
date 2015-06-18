@@ -1,2 +1,2 @@
 # flocking-demo
-Flocking Demo - Python and Kivy
+Flocking algorithm demo - Python and Kivy
